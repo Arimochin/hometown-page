@@ -1,0 +1,100 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Delius Swash Caps", cursive;
+}
+
+#hero {
+    background-image: url("/images/arroyojpg.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0 120px 0;
+    color: #C48190;
+    text-shadow: 0px 0px 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-title {
+    background-color: #32366B;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+#hero-subt {
+    background-color: #32366B;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+#activities-section {
+    color: #32366B;
+    text-shadow: 0 0 1px black;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mini-box {
+    padding: 0px 20px;
+}
+
+/* .mask {
+    -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+  mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0) 50%);
+} */
+
+.activity-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.activity-img:hover {
+    
+    box-shadow: 2px 2px 4px #32366B;
+}
+
+#guide-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 100px;
+    padding: 10px 10px;
+    background: #63569E;
+    border-radius: 10px;
+}
+
+.guide-icon {
+    width: 200px;
+    height: 150px;
+    padding: 0 0 0 0 ;
+    margin: 10px 20px;
+    border-radius: 16px;
+}
+
+.guide-text {
+    padding: 0 2px ;
+    margin: 0 20px;
+}
+
+#activities-guide {
+    background: linear-gradient(#DF877C,#32366B);
+    margin: 0;
+    padding: 20px;
+}
